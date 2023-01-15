@@ -1,0 +1,276 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 230px auto 220px;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: justify;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.title-container {
+    width: 862px;
+    height: 225px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.head-description {
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: absolute;
+    align-items: center;
+
+}
+
+.banner {
+    width: 1400px;
+    height: 700px;
+    padding: 150px 240px 24px 240px;
+    border-radius: 8px;
+}
+
+/* main part01 */
+section {
+    margin-top: 130px;
+}
+
+.main-cont {
+    display: flex;
+    align-items: center;
+}
+
+.img-cont {
+    margin-left: 301px;
+    display: grid;
+    grid-template-columns: 354px 354px;
+}
+
+.team-img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.main-title-cont {
+    width: 537px;
+    height: 304px;
+
+    margin-left: 73px;
+}
+
+.first-span {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.second-span {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.third-span {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.main-description {
+    font-size: 16px;
+    color: #727272;
+}
+
+/* main part02(feature)*/
+
+.feature-main-cont {
+    margin-left: 240px;
+    margin-right: 240px;
+    display: flex;
+}
+
+.feature-title {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.feature-description {
+    margin-bottom: 30px;
+    width: 586px;
+    height: 78px;
+    color: #727272;
+    font-size: 16px;
+}
+
+.info {
+    width: 586px;
+    height: 171px;
+    margin-bottom: 20px;
+
+}
+
+.info-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.info-description {
+    color: #727272;
+    font-size: 16px;
+}
+
+.img-architect {
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+    margin-left: 120px;
+}
+
+.big-btn {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 852px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+span {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* bottom main part */
+.bottom-section {
+    margin-left: 240px;
+    margin-top: 130px;
+}
+
+.bottom-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.bottom-description {
+    width: 542px;
+    height: 52px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.icon-no {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.icon-description {
+    color: #727272;
+}
+
+.box {
+    height: 241px;
+    width: 241px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-description {
+    color: #727272;
+    margin-bottom: 50px;
+}
+.sponsors{
+    margin-bottom: 130px;
+   display: flex;
+   justify-content: space-evenly
+  
+}
+.title-box{
+    text-align: center;
+}
+.footer{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+border-radius: 8px;
+margin: 0 auto;
+}
+.bye-bye{
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding: 38px 440px;
+}
+
+

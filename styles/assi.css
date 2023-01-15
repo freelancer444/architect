@@ -174,6 +174,7 @@ section {
     height: 982px;
     border-radius: 8px;
     margin-left: 120px;
+    
 }
 
 .big-btn {
@@ -255,6 +256,9 @@ span {
    display: flex;
    justify-content: space-evenly
   
+}
+.sponsors-logo{
+    filter: grayscale(1);
 }
 .title-box{
     text-align: center;

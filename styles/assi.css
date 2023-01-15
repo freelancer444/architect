@@ -276,5 +276,23 @@ margin: 0 auto;
     text-align: center;
     padding: 38px 440px;
 }
+@media screen and (max-width:576px) {
+    header{
+        width: 90%;
+        padding: 50px;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1,1fr;
 
+    }
+    .banner{
+        max-width: 400px;
+        height: auto;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 2,1fr;
+    }
+}
 
